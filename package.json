@@ -1,0 +1,26 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "inventory for any company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --experimental-modules src/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mthew/inventory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mthew/inventory/issues"
+  },
+  "homepage": "https://github.com/Mthew/inventory#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "yarn": "^1.22.19"
+  }
+}
